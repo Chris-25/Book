@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T07:33:43.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="7svjAFT00zmfYs6XtfVr" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-31T10:07:34.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70" etag="92FYCnbBsnH54no9mW8w" version="20.2.7" type="github">
   <diagram id="R6Ztq-pkOIHDjWPvj1B-" name="Page-1">
     <mxGraphModel dx="2447" dy="943" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,10 +75,13 @@
           <mxGeometry x="510" y="280" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dUUaa1ImE56lwwFl0BsI-1" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=message;" vertex="1" parent="10-Q_BTeWXuV71ru6LAa-4">
-          <mxGeometry x="222" y="60" width="50" height="50" as="geometry" />
+          <mxGeometry x="254" y="60" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dUUaa1ImE56lwwFl0BsI-2" value="2.4. Submit Claim for Rejection&lt;br&gt;Stt = pending_rejection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="10-Q_BTeWXuV71ru6LAa-4">
           <mxGeometry x="360" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dUUaa1ImE56lwwFl0BsI-22" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=eventNonint;symbol=message;" vertex="1" parent="10-Q_BTeWXuV71ru6LAa-4">
+          <mxGeometry x="254" y="687" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dUUaa1ImE56lwwFl0BsI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="10-Q_BTeWXuV71ru6LAa-2" source="hxh1ybELKQ1JOoOZZdKr-37" target="UT80NuvYPYnNm6YNi28m-83">
           <mxGeometry relative="1" as="geometry">
