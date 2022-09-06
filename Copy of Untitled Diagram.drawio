@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T04:53:02.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27" etag="3u428Ll_0pN_56f1WNVQ" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T07:10:31.215Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.27" etag="2lghys5eEMewJhPOxD_S" version="20.2.8" type="github">
   <diagram id="R6Ztq-pkOIHDjWPvj1B-" name="Page-1">
-    <mxGraphModel dx="1591" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
         <mxCell id="UT80NuvYPYnNm6YNi28m-8" value="" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;" parent="10-Q_BTeWXuV71ru6LAa-4" vertex="1">
           <mxGeometry x="515" y="140" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UT80NuvYPYnNm6YNi28m-10" value="2.5. Claim not executed &lt;br&gt;in 90 days&lt;br&gt;Stt = archived" style="rounded=0;whiteSpace=wrap;html=1;" parent="10-Q_BTeWXuV71ru6LAa-4" vertex="1">
+        <mxCell id="UT80NuvYPYnNm6YNi28m-10" value="2.5. Claim not executed &lt;br&gt;in xx days&lt;br&gt;Stt = archived" style="rounded=0;whiteSpace=wrap;html=1;" parent="10-Q_BTeWXuV71ru6LAa-4" vertex="1">
           <mxGeometry x="200" y="280" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UT80NuvYPYnNm6YNi28m-26" value="2.3. Request HOD for Survey&lt;br&gt;Stt = pending_approval&lt;br&gt;Survey stt = pending survey approval" style="rounded=0;whiteSpace=wrap;html=1;" parent="10-Q_BTeWXuV71ru6LAa-4" vertex="1">
@@ -88,7 +88,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10-Q_BTeWXuV71ru6LAa-5" value="Claim HOD" style="swimlane;html=1;startSize=20;gradientColor=none;" parent="10-Q_BTeWXuV71ru6LAa-2" vertex="1">
+        <mxCell id="10-Q_BTeWXuV71ru6LAa-5" value="Claim Approver" style="swimlane;html=1;startSize=20;gradientColor=none;" parent="10-Q_BTeWXuV71ru6LAa-2" vertex="1">
           <mxGeometry x="830" y="20" width="640" height="1260" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
@@ -120,7 +120,7 @@
         <mxCell id="W_DkcuiC6QhWZ7ioczpe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10-Q_BTeWXuV71ru6LAa-5" source="UT80NuvYPYnNm6YNi28m-88" target="10-Q_BTeWXuV71ru6LAa-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UT80NuvYPYnNm6YNi28m-88" value="3.5. Submission not handled in 90 days&lt;br&gt;Stt = archived" style="rounded=0;whiteSpace=wrap;html=1;" parent="10-Q_BTeWXuV71ru6LAa-5" vertex="1">
+        <mxCell id="UT80NuvYPYnNm6YNi28m-88" value="3.5. Submission not handled in xx days&lt;br&gt;Stt = archived" style="rounded=0;whiteSpace=wrap;html=1;" parent="10-Q_BTeWXuV71ru6LAa-5" vertex="1">
           <mxGeometry x="10" y="720" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W_DkcuiC6QhWZ7ioczpe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="10-Q_BTeWXuV71ru6LAa-5" source="UT80NuvYPYnNm6YNi28m-94" target="W_DkcuiC6QhWZ7ioczpe-15">
@@ -175,7 +175,7 @@
         <mxCell id="W_DkcuiC6QhWZ7ioczpe-18" value="3.7 Update Stt to Partner" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="10-Q_BTeWXuV71ru6LAa-5">
           <mxGeometry x="330" y="1000" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="10-Q_BTeWXuV71ru6LAa-8" value="F88" style="swimlane;startSize=20;" parent="1" vertex="1">
+        <mxCell id="10-Q_BTeWXuV71ru6LAa-8" value="Partner" style="swimlane;startSize=20;" parent="1" vertex="1">
           <mxGeometry x="-100" y="80" width="340" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="UT80NuvYPYnNm6YNi28m-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="10-Q_BTeWXuV71ru6LAa-8" source="UT80NuvYPYnNm6YNi28m-1" target="UT80NuvYPYnNm6YNi28m-2" edge="1">
@@ -205,7 +205,7 @@
         <mxCell id="hxh1ybELKQ1JOoOZZdKr-31" value="Stt = archived" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="10-Q_BTeWXuV71ru6LAa-8" vertex="1">
           <mxGeometry x="160" y="810" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UT80NuvYPYnNm6YNi28m-22" value="Surveyvor" style="swimlane;startSize=20;" parent="1" vertex="1">
+        <mxCell id="UT80NuvYPYnNm6YNi28m-22" value="Surveyor" style="swimlane;startSize=20;" parent="1" vertex="1">
           <mxGeometry x="1710" y="80" width="370" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="UT80NuvYPYnNm6YNi28m-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="UT80NuvYPYnNm6YNi28m-22" source="UT80NuvYPYnNm6YNi28m-73" target="UT80NuvYPYnNm6YNi28m-79" edge="1">
